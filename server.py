@@ -3,15 +3,15 @@ from flask import Flask
 PORT = 8000
 
 # Python3 program to add two numbers
-num1 = 15
-num2 = 12
+# Store input numbers
+num1 = input('Enter first number: ')
+num2 = input('Enter second number: ')
  
 # Adding two nos
 sum = num1 + num2
  
 # printing values
-MESSAGE= "Sum of", sum
-
+MESSAGE= sum
 
 app = Flask(__name__)
 
