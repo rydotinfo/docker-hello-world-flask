@@ -4,9 +4,9 @@ PORT = 8000
 
 # Python3 program to add two numbers
 # Store input numbers
-num1 = input('Enter first number: ')
-num2 = input('Enter second number: ')
- 
+num1 = 10
+num2 = 15
+
 # Adding two nos
 sum = num1 + num2
  
