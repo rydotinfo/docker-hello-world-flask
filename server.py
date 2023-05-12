@@ -4,14 +4,14 @@ PORT = 8000
 
 # Python3 program to add two numbers
 # Store input numbers
-num1 = 10
-num2 = 15
+num1 = 15
+num2 = 63
 
-# Adding two nos
+# Add two numbers
 sum = num1 + num2
  
 # printing values
-MESSAGE= sum
+MESSAGE = "sum" 
 
 app = Flask(__name__)
 
