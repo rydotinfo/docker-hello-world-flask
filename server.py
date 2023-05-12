@@ -1,7 +1,6 @@
 from flask import Flask
 
 PORT = 8000
-year = 2023
 
 # To get year (integer input) from the user
 # year = int(input("Enter a year: "))
